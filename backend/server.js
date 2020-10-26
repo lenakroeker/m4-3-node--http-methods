@@ -32,7 +32,7 @@ express()
     const emailRegex = /^[^@\s]+@[^@\s\.]+\.[^@\.\s]+$/;
     let repeatCustomer = false;
     let errorType = false;
-
+    console.log(req.body);
     // check if repeat customer
 
     customers.map((person) => {
